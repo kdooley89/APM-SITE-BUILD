@@ -34,6 +34,32 @@ $sticky-bg:                 #eaeaea;
 $sticky-hover:             #d9dbda;
 $link-grey:                #2d333d;
 
+//
+//BRANDING AS OF SEPT 3 -----------------------------------
+//
+
+//green #7bbf24  rgba(123, 191, 36, 1)
+//blue #174c70   rgba(23, 76, 112, 1)
+//red #c9313e    rgba(201, 49, 62, 1)
+//grey #505858   rgba(80, 88, 88, 1)
+
+$green-brand: #7bbf24 !default;
+$green-darker:darken($green-brand, 7%);
+$green-lighter: lighten($green-brand, 7%);
+
+$blue-brand: #174c70 !default;
+$blue-darker:darken($blue-brand, 7%);
+$blue-lighter: lighten($blue-brand, 7%);
+
+$red-brand: #c9313e !default;
+$red-darker:darken($red-brand, 7%);
+$red-lighter: lighten($red-brand, 7%);
+
+$grey-brand: #505858 !default;
+$grey-darker:darken($grey-brand, 7%);
+$grey-lighter: lighten($grey-brand, 7%);
+
+
 //typography Over ride
 $fontstack: 'Roboto', Helvetica, san-serif;
 $default-text: #292d36;

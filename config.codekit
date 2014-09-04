@@ -553,6 +553,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/one.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4793,
+		"inputAbbreviatedPath": "\/assets\/img\/one.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/one.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/our-customers.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -850,6 +861,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/three.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5014,
+		"inputAbbreviatedPath": "\/assets\/img\/three.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/three.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/two.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4863,
+		"inputAbbreviatedPath": "\/assets\/img\/two.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/two.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/users.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1109,6 +1142,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/javascripts\/bootstrap\/min\/product-features-min.js",
 		"outputAbbreviatedPath": "\/assets\/javascripts\/bootstrap\/min\/min\/product-features-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/javascripts\/bootstrap\/min\/quote-slider-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/javascripts\/bootstrap\/min\/quote-slider-min.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/bootstrap\/min\/min\/quote-slider-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1693,7 +1737,7 @@
 		"outputAbbreviatedPath": "\/assets\/css\/bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0

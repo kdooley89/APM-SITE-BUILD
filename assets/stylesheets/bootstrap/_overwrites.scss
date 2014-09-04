@@ -221,7 +221,9 @@ background-image: url(/assets/img/Photo4-yellow.jpg);
 .cyan, .green, .purple, .yellow{
     width: 22em;
     height: 23em;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     }
 
     .dyna-stats{
@@ -273,7 +275,7 @@ background-image: url(/assets/img/Photo4-yellow.jpg);
 @media(max-width:1200px) and (min-width:992px){
 .init-overlay-wrap{
     position: relative;
-    bottom: -169px;
+    bottom: -149px;
     left: 0px;
 }
      
@@ -299,7 +301,7 @@ background-image: url(/assets/img/Photo4-yellow.jpg);
 @media(max-width: 1200px) and (min-width:993px){
 .monitoring{
     position: relative;
-    bottom: -143px;
+    bottom: -122px;
     left: 0px;}
 }
 
@@ -363,7 +365,6 @@ h4{
 }
 
 .modal.in .modal-dialog {
-
 }
 
 
@@ -375,7 +376,6 @@ h4{
     .benchmarks,.news-cont,.events,.freemiums{
     margin-bottom:50px;
     }
-    
     hr{
     color: #cacbcd;
     border: 1px solid #cacbcd;
@@ -385,7 +385,7 @@ h4{
 }
 
 
-//button overwrites----------------------------------
+//default-button overwrites----------------------------------
 .default-button{
   font-family: $font-family-sans-serif;
   @include thin;
@@ -418,7 +418,7 @@ h4{
   
 }
 
-
+ //brand-secondary button --------------------------------
 .secondary-button{
   font-family: $font-family-sans-serif;
   @include thin;
@@ -442,7 +442,8 @@ h4{
 .secondary-button:hover{
   background-color: darken($brand-secondary, 10%);
   @include transition (all 300ms ease-in-out);
-    color: white;  
+    color: white;
+    text-decoration: none;
     & :focus{
         top:2px;
         right:2px;
@@ -451,7 +452,7 @@ h4{
 }
 
 
-//full width button
+//full width button ----------------------------------
 .full-button{
   margin:10px;
   padding-left:30px;
@@ -485,15 +486,11 @@ h4{
   
 }
 
-
-
-
-
-
+//ghost button styles --------------------------------
 .ghost-button{
   font-family: $font-family-sans-serif;
   @include med;
-  font-size: 1em;
+  font-size: 1.3em;
   letter-spacing: 1px;
   background-color: white;
   color: $brand-secondary;
@@ -501,18 +498,20 @@ h4{
   text-transform: uppercase;
   padding-left:30px;
   padding-right:30px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   outline: none;
   border: 3px solid $brand-secondary;
   border-radius:3px;
   margin-top:5px;
   margin-bottom: 5px;
+
 }
 
 .ghost-button:hover{
   background-color: $brand-secondary;
     color: white;
+    text-decoration: none;
   @include transition (all 300ms ease-in-out);
   & :focus{
     top:2px;
@@ -1212,6 +1211,8 @@ text-align: center;
 }
 
 .qt-1,.qt-2,.qt-3,.qt-4,.qt-5,.qt-6,.qt-7,.qt-8,.qt-9,.qt-10,.qt-11,.qt-12,.qt-13,.qt-14,.qt-15{
+  width: 75px;
+  height: 75px;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
@@ -1513,7 +1514,7 @@ margin-top:70px;
     color: white;
     text-decoration: none;
     &:hover{
-    color: $brand-secondary;
+    color: darken(#ffffff,25%);
     @include transition (all 300ms ease);
     }   
     }
@@ -1529,7 +1530,6 @@ margin-top:70px;
 
 .accel-intro{
     margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .break{ 
@@ -1580,8 +1580,9 @@ margin-top: 25px;
 .partner-resource-sub{
     font-family: inherit;
     color: $brand-primary;
-    text-indent: 10px;
+    text-indent: 15px;
     font-style: italic;
+    margin-top: 5px;
 }
 
 .resources-right{
@@ -1682,4 +1683,8 @@ margin-top: 25px;
 .ppg-cta{
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+.partner-type{
+margin-bottom: 25px;
 }
